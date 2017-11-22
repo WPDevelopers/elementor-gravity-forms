@@ -1,13 +1,13 @@
 <?php
 /**
- * Plugin Name: Elementor Gravity Form
+ * Plugin Name: Elementor Gravity Forms
  * Description: Gravity Form styler for elementor. Design the form visually with elementor.
- * Plugin URI: https://essential-addons.com/elementor/contact-form-7
+ * Plugin URI: https://essential-addons.com/elementor/gravity-forms
  * Author: Essential Addons
  * Version: 1.0.0
  * Author URI: https://essential-addons.com/elementor/
  *
- * Text Domain: elementor-gravity-form
+ * Text Domain: elementor-gravity-forms
 */
 
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
@@ -41,7 +41,7 @@ add_action('elementor/widgets/widgets_registered','add_eael_gravity_form');
  */
 function eael_gravity_form_enqueue() {
 
-   wp_enqueue_style('essential_addons_elementor-gravity-form-css',EAEL_GRAVITY_FORM_URL.'assets/css/elementor-gravity-form.css');
+   wp_enqueue_style('essential_addons_elementor-gravity-forms-css',EAEL_GRAVITY_FORM_URL.'assets/css/elementor-gravity-forms.css');
 
 }
 add_action( 'wp_enqueue_scripts', 'eael_gravity_form_enqueue' );

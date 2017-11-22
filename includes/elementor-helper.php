@@ -3,7 +3,7 @@ namespace Elementor;
 
 function eael_gravity_form_init(){
     Plugin::instance()->elements_manager->add_category(
-        'elementor-gravity-form',
+        'elementor-gravity-forms',
         [
             'title'  => 'Elementor Gravity Form',
             'icon' => 'font'

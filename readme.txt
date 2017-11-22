@@ -1,22 +1,22 @@
-=== Elementor Contact Form 7 ===
+=== Elementor Gravity Forms ===
 Contributors: re_enter_rupok, Asif2BD, robicse11128, codetic
-Tags: elementor, contact form 7, contact form 7 styler, elementor addon, elementor widget
+Tags: elementor, gravity form, gravity form styler, elementor addon, elementor widget
 Requires at least: 4.0
 Tested up to: 4.9
 Stable tag: 1.0.0
 License: GPLv3
 License URI: https://opensource.org/licenses/GPL-3.0
 
-Contact Form 7 styler for Elementor page builder.
+Gravity Form styler for Elementor page builder.
 
 == Description ==
 
-Contact Form 7 styler for Elementor page builder. Desing beatiful Contact Form using Elementor and Contact Form 7 with visual editor. No coding required.
+Gravity Form styler for Elementor page builder. Desing beatiful Forms using Elementor and Gravity Form with visual editor. No coding required.
 
 
-[Check the Demo](https://essential-addons.com/elementor/contact-form-7)
+[Check the Demo](https://essential-addons.com/elementor/gravity-forms/)
 
-### [Elementor](https://wordpress.org/plugins/elementor/) page builder and [Contact Form 7](https://wordpress.org/plugins/contact-form-7/) are required for this plugin.
+### [Elementor](https://wordpress.org/plugins/elementor/) page builder and [Gravity Forms](https://www.gravityforms.com/) are required for this plugin.
 
 ### Features
 
@@ -24,7 +24,7 @@ Contact Form 7 styler for Elementor page builder. Desing beatiful Contact Form u
 * Set layout and styles using visual builder
 
 
-### This is the standalone version for Contact Form 7 only. You can use [Essential Addons for Elementor](https://wordpress.org/plugins/essential-addons-for-elementor-lite/) to get 25+ elements together. 
+### This is the standalone version for Gravity Forms only. You can use [Essential Addons for Elementor](https://wordpress.org/plugins/essential-addons-for-elementor-lite/) to get 25+ elements together. 
 
 * [Post Grid](https://essential-addons.com/elementor/post-grid/)
 * [Post Timeline](https://essential-addons.com/elementor/post-timeline/)
@@ -71,13 +71,13 @@ Note : This plugin works with Elementor. Make sure you have [Elementor](https://
 
 No. You cannot use without Elementor since it's an addon for Elementor.
 
-= Can I use the plugin without Contact Form 7? =
+= Can I use the plugin without Gravity Form? =
 
-No. You cannot use without Contact Form 7. It must be installed.
+No. You cannot use without Gravity Form. It must be installed.
 
 = Does it work with any theme? =
 
-Absolutely! It will work with any theme where Elementor and Contact Form 7 works.
+Absolutely! It will work with any theme where Elementor and Gravity Form works.
 
 
 == Screenshots ==

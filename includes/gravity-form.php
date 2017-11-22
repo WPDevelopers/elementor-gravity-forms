@@ -11,7 +11,7 @@ class Widget_Eael_Gravity_Form_Stand_Alone extends Widget_Base {
 	}
 
 	public function get_title() {
-		return esc_html__( 'EA Gravity Form', 'elementor-gravity-form' );
+		return esc_html__( 'EA Gravity Form', 'elementor-gravity-forms' );
 	}
 
 	public function get_icon() {
@@ -19,7 +19,7 @@ class Widget_Eael_Gravity_Form_Stand_Alone extends Widget_Base {
 	}
 
    public function get_categories() {
-		return [ 'elementor-gravity-form' ];
+		return [ 'elementor-gravity-forms' ];
 	}
 
 	protected function _register_controls() {
@@ -27,14 +27,14 @@ class Widget_Eael_Gravity_Form_Stand_Alone extends Widget_Base {
 		$this->start_controls_section(
   			'eael_section_gravity_form',
   			[
-  				'label' => esc_html__( 'Gravity Form', 'elementor-gravity-form' )
+  				'label' => esc_html__( 'Gravity Form', 'elementor-gravity-forms' )
   			]
   		);
 
 		$this->add_control(
 			'eael_gravity_form',
 			[
-				'label' => esc_html__( 'Select gravity form', 'elementor-gravity-form' ),
+				'label' => esc_html__( 'Select gravity form', 'elementor-gravity-forms' ),
 				'label_block' => true,
 				'type' => Controls_Manager::SELECT,
 				'options' => eael_select_gravity_form_stand_alone(),
@@ -47,7 +47,7 @@ class Widget_Eael_Gravity_Form_Stand_Alone extends Widget_Base {
 		$this->start_controls_section(
 			'eael_section_gravity_styles',
 			[
-				'label' => esc_html__( 'Form Container Styles', 'elementor-gravity-form' ),
+				'label' => esc_html__( 'Form Container Styles', 'elementor-gravity-forms' ),
 				'tab' => Controls_Manager::TAB_STYLE
 			]
 		);
@@ -55,7 +55,7 @@ class Widget_Eael_Gravity_Form_Stand_Alone extends Widget_Base {
 		$this->add_control(
 			'eael_gravity_background',
 			[
-				'label' => esc_html__( 'Form Background Color', 'elementor-gravity-form' ),
+				'label' => esc_html__( 'Form Background Color', 'elementor-gravity-forms' ),
 				'type' => Controls_Manager::COLOR,
 				'default' => '',
 				'selectors' => [
@@ -67,24 +67,24 @@ class Widget_Eael_Gravity_Form_Stand_Alone extends Widget_Base {
 		$this->add_responsive_control(
 			'eael_gravity_alignment',
 			[
-				'label' => esc_html__( 'Form Alignment', 'elementor-gravity-form' ),
+				'label' => esc_html__( 'Form Alignment', 'elementor-gravity-forms' ),
 				'type' => Controls_Manager::CHOOSE,
 				'label_block' => true,
 				'options' => [
 					'default' => [
-						'title' => __( 'Default', 'elementor-gravity-form' ),
+						'title' => __( 'Default', 'elementor-gravity-forms' ),
 						'icon' => 'fa fa-ban',
 					],
 					'left' => [
-						'title' => esc_html__( 'Left', 'elementor-gravity-form' ),
+						'title' => esc_html__( 'Left', 'elementor-gravity-forms' ),
 						'icon' => 'fa fa-align-left',
 					],
 					'center' => [
-						'title' => esc_html__( 'Center', 'elementor-gravity-form' ),
+						'title' => esc_html__( 'Center', 'elementor-gravity-forms' ),
 						'icon' => 'fa fa-align-center',
 					],
 					'right' => [
-						'title' => esc_html__( 'Right', 'elementor-gravity-form' ),
+						'title' => esc_html__( 'Right', 'elementor-gravity-forms' ),
 						'icon' => 'fa fa-align-right',
 					],
 				],
@@ -96,7 +96,7 @@ class Widget_Eael_Gravity_Form_Stand_Alone extends Widget_Base {
 		$this->add_responsive_control(
   			'eael_gravity_width',
   			[
-  				'label' => esc_html__( 'Form Width', 'elementor-gravity-form' ),
+  				'label' => esc_html__( 'Form Width', 'elementor-gravity-forms' ),
   				'type' => Controls_Manager::SLIDER,
 				'size_units' => [ 'px', 'em', '%' ],
 				'range' => [
@@ -118,7 +118,7 @@ class Widget_Eael_Gravity_Form_Stand_Alone extends Widget_Base {
   		$this->add_responsive_control(
   			'eael_gravity_max_width',
   			[
-  				'label' => esc_html__( 'Form Max Width', 'elementor-gravity-form' ),
+  				'label' => esc_html__( 'Form Max Width', 'elementor-gravity-forms' ),
   				'type' => Controls_Manager::SLIDER,
 				'size_units' => [ 'px', 'em', '%' ],
 				'range' => [
@@ -140,7 +140,7 @@ class Widget_Eael_Gravity_Form_Stand_Alone extends Widget_Base {
 		$this->add_responsive_control(
 			'eael_gravity_margin',
 			[
-				'label' => esc_html__( 'Form Margin', 'elementor-gravity-form' ),
+				'label' => esc_html__( 'Form Margin', 'elementor-gravity-forms' ),
 				'type' => Controls_Manager::DIMENSIONS,
 				'size_units' => [ 'px', 'em', '%' ],
 				'selectors' => [
@@ -152,7 +152,7 @@ class Widget_Eael_Gravity_Form_Stand_Alone extends Widget_Base {
 		$this->add_responsive_control(
 			'eael_gravity_padding',
 			[
-				'label' => esc_html__( 'Form Padding', 'elementor-gravity-form' ),
+				'label' => esc_html__( 'Form Padding', 'elementor-gravity-forms' ),
 				'type' => Controls_Manager::DIMENSIONS,
 				'size_units' => [ 'px', 'em', '%' ],
 				'selectors' => [
@@ -164,7 +164,7 @@ class Widget_Eael_Gravity_Form_Stand_Alone extends Widget_Base {
 		$this->add_control(
 			'eael_gravity_border_radius',
 			[
-				'label' => esc_html__( 'Border Radius', 'elementor-gravity-form' ),
+				'label' => esc_html__( 'Border Radius', 'elementor-gravity-forms' ),
 				'type' => Controls_Manager::DIMENSIONS,
 				'separator' => 'before',
 				'size_units' => [ 'px' ],
@@ -198,7 +198,7 @@ class Widget_Eael_Gravity_Form_Stand_Alone extends Widget_Base {
 		$this->start_controls_section(
 			'eael_section_gravity_field_styles',
 			[
-				'label' => esc_html__( 'Form Fields Styles', 'elementor-gravity-form' ),
+				'label' => esc_html__( 'Form Fields Styles', 'elementor-gravity-forms' ),
 				'tab' => Controls_Manager::TAB_STYLE
 			]
 		);
@@ -206,7 +206,7 @@ class Widget_Eael_Gravity_Form_Stand_Alone extends Widget_Base {
 		$this->add_control(
 			'eael_gravity_input_background',
 			[
-				'label' => esc_html__( 'Input Field Background', 'elementor-gravity-form' ),
+				'label' => esc_html__( 'Input Field Background', 'elementor-gravity-forms' ),
 				'type' => Controls_Manager::COLOR,
 				'selectors' => [
 					'{{WRAPPER}} .eael-gravity-container .gfield input[type="text"],
@@ -224,7 +224,7 @@ class Widget_Eael_Gravity_Form_Stand_Alone extends Widget_Base {
   		$this->add_responsive_control(
   			'eael_gravity_input_width',
   			[
-  				'label' => esc_html__( 'Input Width', 'elementor-gravity-form' ),
+  				'label' => esc_html__( 'Input Width', 'elementor-gravity-forms' ),
   				'type' => Controls_Manager::SLIDER,
 				'size_units' => [ 'px', 'em', '%' ],
 				'range' => [
@@ -251,7 +251,7 @@ class Widget_Eael_Gravity_Form_Stand_Alone extends Widget_Base {
   		$this->add_responsive_control(
   			'eael_gravity_textarea_width',
   			[
-  				'label' => esc_html__( 'Textarea Width', 'elementor-gravity-form' ),
+  				'label' => esc_html__( 'Textarea Width', 'elementor-gravity-forms' ),
   				'type' => Controls_Manager::SLIDER,
 				'size_units' => [ 'px', 'em', '%' ],
 				'range' => [
@@ -273,7 +273,7 @@ class Widget_Eael_Gravity_Form_Stand_Alone extends Widget_Base {
 		$this->add_responsive_control(
 			'eael_gravity_input_padding',
 			[
-				'label' => esc_html__( 'Fields Padding', 'elementor-gravity-form' ),
+				'label' => esc_html__( 'Fields Padding', 'elementor-gravity-forms' ),
 				'type' => Controls_Manager::DIMENSIONS,
 				'size_units' => [ 'px', 'em', '%' ],
 				'selectors' => [
@@ -293,7 +293,7 @@ class Widget_Eael_Gravity_Form_Stand_Alone extends Widget_Base {
 		$this->add_control(
 			'eael_gravity_input_border_radius',
 			[
-				'label' => esc_html__( 'Border Radius', 'elementor-gravity-form' ),
+				'label' => esc_html__( 'Border Radius', 'elementor-gravity-forms' ),
 				'type' => Controls_Manager::DIMENSIONS,
 				'separator' => 'before',
 				'size_units' => [ 'px' ],
@@ -345,7 +345,7 @@ class Widget_Eael_Gravity_Form_Stand_Alone extends Widget_Base {
 			'eael_gravity_focus_heading',
 			[
 				'type' => Controls_Manager::HEADING,
-				'label' => esc_html__( 'Focus State Style', 'elementor-gravity-form' ),
+				'label' => esc_html__( 'Focus State Style', 'elementor-gravity-forms' ),
 				'separator' => 'before',
 			]
 		);
@@ -369,7 +369,7 @@ class Widget_Eael_Gravity_Form_Stand_Alone extends Widget_Base {
 		$this->add_control(
 			'eael_gravity_input_focus_border',
 			[
-				'label' => esc_html__( 'Border Color', 'elementor-gravity-form' ),
+				'label' => esc_html__( 'Border Color', 'elementor-gravity-forms' ),
 				'type' => Controls_Manager::COLOR,
 				'selectors' => [
 					'{{WRAPPER}} .eael-gravity-container .gfield input[type="text"]:focus,
@@ -391,7 +391,7 @@ class Widget_Eael_Gravity_Form_Stand_Alone extends Widget_Base {
 		$this->start_controls_section(
 			'eael_section_gravity_typography',
 			[
-				'label' => esc_html__( 'Color & Typography', 'elementor-gravity-form' ),
+				'label' => esc_html__( 'Color & Typography', 'elementor-gravity-forms' ),
 				'tab' => Controls_Manager::TAB_STYLE
 			]
 		);
@@ -400,7 +400,7 @@ class Widget_Eael_Gravity_Form_Stand_Alone extends Widget_Base {
 		$this->add_control(
 			'eael_gravity_label_color',
 			[
-				'label' => esc_html__( 'Label Color', 'elementor-gravity-form' ),
+				'label' => esc_html__( 'Label Color', 'elementor-gravity-forms' ),
 				'type' => Controls_Manager::COLOR,
 				'selectors' => [
 					'{{WRAPPER}} .eael-gravity-container, {{WRAPPER}} .eael-gravity-container .nf-field-label label' => 'color: {{VALUE}};',
@@ -411,7 +411,7 @@ class Widget_Eael_Gravity_Form_Stand_Alone extends Widget_Base {
 		$this->add_control(
 			'eael_gravity_field_color',
 			[
-				'label' => esc_html__( 'Field Font Color', 'elementor-gravity-form' ),
+				'label' => esc_html__( 'Field Font Color', 'elementor-gravity-forms' ),
 				'type' => Controls_Manager::COLOR,
 				'selectors' => [
 					'{{WRAPPER}} .eael-gravity-container .gfield input[type="text"],
@@ -428,7 +428,7 @@ class Widget_Eael_Gravity_Form_Stand_Alone extends Widget_Base {
 		$this->add_control(
 			'eael_gravity_placeholder_color',
 			[
-				'label' => esc_html__( 'Placeholder Font Color', 'elementor-gravity-form' ),
+				'label' => esc_html__( 'Placeholder Font Color', 'elementor-gravity-forms' ),
 				'type' => Controls_Manager::COLOR,
 				'selectors' => [
 					'{{WRAPPER}} .eael-gravity-container ::-webkit-input-placeholder' => 'color: {{VALUE}};',
@@ -443,7 +443,7 @@ class Widget_Eael_Gravity_Form_Stand_Alone extends Widget_Base {
 			'eael_gravity_label_heading',
 			[
 				'type' => Controls_Manager::HEADING,
-				'label' => esc_html__( 'Label Typography', 'elementor-gravity-form' ),
+				'label' => esc_html__( 'Label Typography', 'elementor-gravity-forms' ),
 				'separator' => 'before',
 			]
 		);
@@ -461,7 +461,7 @@ class Widget_Eael_Gravity_Form_Stand_Alone extends Widget_Base {
 			'eael_gravity_heading_input_field',
 			[
 				'type' => Controls_Manager::HEADING,
-				'label' => esc_html__( 'Input Fields Typography', 'elementor-gravity-form' ),
+				'label' => esc_html__( 'Input Fields Typography', 'elementor-gravity-forms' ),
 				'separator' => 'before',
 			]
 		);
@@ -488,7 +488,7 @@ class Widget_Eael_Gravity_Form_Stand_Alone extends Widget_Base {
 		$this->start_controls_section(
 			'eael_section_gravity_submit_button_styles',
 			[
-				'label' => esc_html__( 'Submit Button Styles', 'elementor-gravity-form' ),
+				'label' => esc_html__( 'Submit Button Styles', 'elementor-gravity-forms' ),
 				'tab' => Controls_Manager::TAB_STYLE
 			]
 		);
@@ -496,7 +496,7 @@ class Widget_Eael_Gravity_Form_Stand_Alone extends Widget_Base {
   		$this->add_responsive_control(
   			'eael_gravity_submit_btn_width',
   			[
-  				'label' => esc_html__( 'Button Width', 'elementor-gravity-form' ),
+  				'label' => esc_html__( 'Button Width', 'elementor-gravity-forms' ),
   				'type' => Controls_Manager::SLIDER,
 				'size_units' => [ 'px', 'em', '%' ],
 				'range' => [
@@ -518,24 +518,24 @@ class Widget_Eael_Gravity_Form_Stand_Alone extends Widget_Base {
 		$this->add_responsive_control(
 			'eael_gravity_submit_btn_alignment',
 			[
-				'label' => esc_html__( 'Button Alignment', 'elementor-gravity-form' ),
+				'label' => esc_html__( 'Button Alignment', 'elementor-gravity-forms' ),
 				'type' => Controls_Manager::CHOOSE,
 				'label_block' => true,
 				'options' => [
 					'default' => [
-						'title' => __( 'Default', 'elementor-gravity-form' ),
+						'title' => __( 'Default', 'elementor-gravity-forms' ),
 						'icon' => 'fa fa-ban',
 					],
 					'left' => [
-						'title' => esc_html__( 'Left', 'elementor-gravity-form' ),
+						'title' => esc_html__( 'Left', 'elementor-gravity-forms' ),
 						'icon' => 'fa fa-align-left',
 					],
 					'center' => [
-						'title' => esc_html__( 'Center', 'elementor-gravity-form' ),
+						'title' => esc_html__( 'Center', 'elementor-gravity-forms' ),
 						'icon' => 'fa fa-align-center',
 					],
 					'right' => [
-						'title' => esc_html__( 'Right', 'elementor-gravity-form' ),
+						'title' => esc_html__( 'Right', 'elementor-gravity-forms' ),
 						'icon' => 'fa fa-align-right',
 					],
 				],
@@ -556,7 +556,7 @@ class Widget_Eael_Gravity_Form_Stand_Alone extends Widget_Base {
 		$this->add_responsive_control(
 			'eael_gravity_submit_btn_margin',
 			[
-				'label' => esc_html__( 'Margin', 'elementor-gravity-form' ),
+				'label' => esc_html__( 'Margin', 'elementor-gravity-forms' ),
 				'type' => Controls_Manager::DIMENSIONS,
 				'size_units' => [ 'px', 'em', '%' ],
 				'selectors' => [
@@ -568,7 +568,7 @@ class Widget_Eael_Gravity_Form_Stand_Alone extends Widget_Base {
 		$this->add_responsive_control(
 			'eael_gravity_submit_btn_padding',
 			[
-				'label' => esc_html__( 'Padding', 'elementor-gravity-form' ),
+				'label' => esc_html__( 'Padding', 'elementor-gravity-forms' ),
 				'type' => Controls_Manager::DIMENSIONS,
 				'size_units' => [ 'px', 'em', '%' ],
 				'selectors' => [
@@ -579,12 +579,12 @@ class Widget_Eael_Gravity_Form_Stand_Alone extends Widget_Base {
 
 		$this->start_controls_tabs( 'eael_gravity_submit_button_tabs' );
 
-		$this->start_controls_tab( 'normal', [ 'label' => esc_html__( 'Normal', 'elementor-gravity-form' ) ] );
+		$this->start_controls_tab( 'normal', [ 'label' => esc_html__( 'Normal', 'elementor-gravity-forms' ) ] );
 
 		$this->add_control(
 			'eael_gravity_submit_btn_text_color',
 			[
-				'label' => esc_html__( 'Text Color', 'elementor-gravity-form' ),
+				'label' => esc_html__( 'Text Color', 'elementor-gravity-forms' ),
 				'type' => Controls_Manager::COLOR,
 				'selectors' => [
 					'{{WRAPPER}} .eael-gravity-container .gform_button' => 'color: {{VALUE}};',
@@ -595,7 +595,7 @@ class Widget_Eael_Gravity_Form_Stand_Alone extends Widget_Base {
 		$this->add_control(
 			'eael_gravity_submit_btn_background_color',
 			[
-				'label' => esc_html__( 'Background Color', 'elementor-gravity-form' ),
+				'label' => esc_html__( 'Background Color', 'elementor-gravity-forms' ),
 				'type' => Controls_Manager::COLOR,
 				'selectors' => [
 					'{{WRAPPER}} .eael-gravity-container .gform_button' => 'background-color: {{VALUE}};',
@@ -614,7 +614,7 @@ class Widget_Eael_Gravity_Form_Stand_Alone extends Widget_Base {
 		$this->add_control(
 			'eael_gravity_submit_btn_border_radius',
 			[
-				'label' => esc_html__( 'Border Radius', 'elementor-gravity-form' ),
+				'label' => esc_html__( 'Border Radius', 'elementor-gravity-forms' ),
 				'type' => Controls_Manager::SLIDER,
 				'range' => [
 					'px' => [
@@ -631,12 +631,12 @@ class Widget_Eael_Gravity_Form_Stand_Alone extends Widget_Base {
 
 		$this->end_controls_tab();
 
-		$this->start_controls_tab( 'eael_gravity_submit_btn_hover', [ 'label' => esc_html__( 'Hover', 'elementor-gravity-form' ) ] );
+		$this->start_controls_tab( 'eael_gravity_submit_btn_hover', [ 'label' => esc_html__( 'Hover', 'elementor-gravity-forms' ) ] );
 
 		$this->add_control(
 			'eael_gravity_submit_btn_hover_text_color',
 			[
-				'label' => esc_html__( 'Text Color', 'elementor-gravity-form' ),
+				'label' => esc_html__( 'Text Color', 'elementor-gravity-forms' ),
 				'type' => Controls_Manager::COLOR,
 				'selectors' => [
 					'{{WRAPPER}} .eael-gravity-container .gform_button:hover' => 'color: {{VALUE}};',
@@ -647,7 +647,7 @@ class Widget_Eael_Gravity_Form_Stand_Alone extends Widget_Base {
 		$this->add_control(
 			'eael_gravity_submit_btn_hover_background_color',
 			[
-				'label' => esc_html__( 'Background Color', 'elementor-gravity-form' ),
+				'label' => esc_html__( 'Background Color', 'elementor-gravity-forms' ),
 				'type' => Controls_Manager::COLOR,
 				'selectors' => [
 					'{{WRAPPER}} .eael-gravity-container .gform_button:hover' => 'background-color: {{VALUE}};',
@@ -658,7 +658,7 @@ class Widget_Eael_Gravity_Form_Stand_Alone extends Widget_Base {
 		$this->add_control(
 			'eael_gravity_submit_btn_hover_border_color',
 			[
-				'label' => esc_html__( 'Border Color', 'elementor-gravity-form' ),
+				'label' => esc_html__( 'Border Color', 'elementor-gravity-forms' ),
 				'type' => Controls_Manager::COLOR,
 				'selectors' => [
 					'{{WRAPPER}} .eael-gravity-container .gform_button:hover' => 'border-color: {{VALUE}};',

@@ -95,14 +95,14 @@ class Eael_gravity_from_Admin_Settings {
 			<div class="response-wrap"></div>
 		  		<div class="eael-header-bar">
 					<div class="eael-header-left">
-						<h4 class="title"><?php _e( 'Elementor Gravity Form', 'elementor-gravity-form' ); ?></h4>
+						<h4 class="title"><?php _e( 'Elementor Gravity Form', 'elementor-gravity-forms' ); ?></h4>
 					</div>
 				</div>
 				<?php if( !function_exists( 'eael_activate' ) ): ?>
 				<div class="eael-header-bar-after">
 					<div class="eael-header-left">
-						<h4 class="title-2"><?php _e( 'Get all essential elements in a single plugin!', 'elementor-gravity-form' ); ?></h4>
-						<p class="eael-subtitle-text"><?php _e( 'You can enable certain elements that you are only using. So it will not slow down your site since it won\'t load the associated resources', 'elementor-gravity-form' ); ?></p>
+						<h4 class="title-2"><?php _e( 'Get all essential elements in a single plugin!', 'elementor-gravity-forms' ); ?></h4>
+						<p class="eael-subtitle-text"><?php _e( 'You can enable certain elements that you are only using. So it will not slow down your site since it won\'t load the associated resources', 'elementor-gravity-forms' ); ?></p>
 					</div>
 					<div class="eael-header-right">
 						<button class="button eael-btn" id="eael-gravity-form-install-now">Install Essential Addons for Elementor</button>
@@ -124,10 +124,10 @@ class Eael_gravity_from_Admin_Settings {
 					                    <td>
 					                        <div class="eael-checkbox">
 					                            <p class="title">
-					                                <?php _e( 'Info Box', 'elementor-gravity-form' ) ?>
+					                                <?php _e( 'Info Box', 'elementor-gravity-forms' ) ?>
 					                            </p>
 					                            <p class="desc">
-					                                <?php _e( 'Activate / Deactive Info Box', 'elementor-gravity-form' ); ?>
+					                                <?php _e( 'Activate / Deactive Info Box', 'elementor-gravity-forms' ); ?>
 					                            </p>
 					                            <input type="checkbox" id="info-box" name="info-box" disabled>
 					                            <label for="info-box" class="<?php if( (bool) $this->is_pro === false ) : echo 'eael-get-pro'; endif; ?>"></label>
@@ -136,10 +136,10 @@ class Eael_gravity_from_Admin_Settings {
 					                    <td>
 					                        <div class="eael-checkbox">
 					                            <p class="title">
-					                                <?php _e( 'Team Member', 'elementor-gravity-form' ) ?>
+					                                <?php _e( 'Team Member', 'elementor-gravity-forms' ) ?>
 					                            </p>
 					                            <p class="desc">
-					                                <?php _e( 'Activate / Deactivate Team Member', 'elementor-gravity-form' ); ?>
+					                                <?php _e( 'Activate / Deactivate Team Member', 'elementor-gravity-forms' ); ?>
 					                            </p>
 					                            <input type="checkbox" id="team-members" name="team-members" disabled>
 					                            <label for="team-members" class="<?php if( (bool) $this->is_pro === false ) : echo 'eael-get-pro'; endif; ?>"></label>
@@ -148,10 +148,10 @@ class Eael_gravity_from_Admin_Settings {
 					                    <td>
 					                        <div class="eael-checkbox">
 					                            <p class="title">
-					                                <?php _e( 'Flip Box', 'elementor-gravity-form' ) ?>
+					                                <?php _e( 'Flip Box', 'elementor-gravity-forms' ) ?>
 					                            </p>
 					                            <p class="desc">
-					                                <?php _e( 'Activate / Deactive Flip Box', 'elementor-gravity-form' ); ?>
+					                                <?php _e( 'Activate / Deactive Flip Box', 'elementor-gravity-forms' ); ?>
 					                            </p>
 					                            <input type="checkbox" id="flip-box" name="flip-box" disabled>
 					                            <label for="flip-box" class="<?php if( (bool) $this->is_pro === false ) : echo 'eael-get-pro'; endif; ?>"></label>
@@ -160,10 +160,10 @@ class Eael_gravity_from_Admin_Settings {
 					                    <td>
 					                        <div class="eael-checkbox">
 					                            <p class="title">
-					                                <?php _e( 'Dual Color Header', 'elementor-gravity-form' ) ?>
+					                                <?php _e( 'Dual Color Header', 'elementor-gravity-forms' ) ?>
 					                            </p>
 					                            <p class="desc">
-					                                <?php _e( 'Activate / Deactive Dual Color Header', 'elementor-gravity-form' ); ?>
+					                                <?php _e( 'Activate / Deactive Dual Color Header', 'elementor-gravity-forms' ); ?>
 					                            </p>
 					                            <input type="checkbox" id="dual-header" name="dual-header" disabled>
 					                            <label for="dual-header" class="<?php if( (bool) $this->is_pro === false ) : echo 'eael-get-pro'; endif; ?>"></label>
@@ -172,10 +172,10 @@ class Eael_gravity_from_Admin_Settings {
 					                    <td>
 					                        <div class="eael-checkbox">
 					                            <p class="title">
-					                                <?php _e( 'Creative Button', 'elementor-gravity-form' ); ?>
+					                                <?php _e( 'Creative Button', 'elementor-gravity-forms' ); ?>
 					                            </p>
 					                            <p class="desc">
-					                                <?php _e( 'Activate / Deactivate Creative Button', 'elementor-gravity-form' ); ?>
+					                                <?php _e( 'Activate / Deactivate Creative Button', 'elementor-gravity-forms' ); ?>
 					                            </p>
 					                            <input type="checkbox" id="creative-btn" name="creative-btn" disabled>
 					                            <label for="creative-btn" class="<?php if( (bool) $this->is_pro === false ) : echo 'eael-get-pro'; endif; ?>"></label>
@@ -186,10 +186,10 @@ class Eael_gravity_from_Admin_Settings {
 					                    <td>
 					                        <div class="eael-checkbox">
 					                            <p class="title">
-					                                <?php _e( 'Testimonial Slider', 'elementor-gravity-form' ) ?>
+					                                <?php _e( 'Testimonial Slider', 'elementor-gravity-forms' ) ?>
 					                            </p>
 					                            <p class="desc">
-					                                <?php _e( 'Activate / Deactivate Testimonial Slider', 'elementor-gravity-form' ); ?>
+					                                <?php _e( 'Activate / Deactivate Testimonial Slider', 'elementor-gravity-forms' ); ?>
 					                            </p>
 					                            <input type="checkbox" id="testimonial-slider" name="testimonial-slider" disabled>
 					                            <label for="testimonial-slider" class="<?php if( (bool) $this->is_pro === false ) : echo 'eael-get-pro'; endif; ?>"></label>
@@ -198,10 +198,10 @@ class Eael_gravity_from_Admin_Settings {
 					                    <td>
 					                        <div class="eael-checkbox">
 					                            <p class="title">
-					                                <?php _e( 'Testimonials', 'elementor-gravity-form' ) ?>
+					                                <?php _e( 'Testimonials', 'elementor-gravity-forms' ) ?>
 					                            </p>
 					                            <p class="desc">
-					                                <?php _e( 'Activate / Deactivate Testimonials', 'elementor-gravity-form' ); ?>
+					                                <?php _e( 'Activate / Deactivate Testimonials', 'elementor-gravity-forms' ); ?>
 					                            </p>
 					                            <input type="checkbox" id="testimonials" name="testimonials" disabled>
 					                            <label for="testimonials" class="<?php if( (bool) $this->is_pro === false ) : echo 'eael-get-pro'; endif; ?>"></label>
@@ -217,10 +217,10 @@ class Eael_gravity_from_Admin_Settings {
 					                    <td>
 					                        <div class="eael-checkbox">
 					                            <p class="title">
-					                                <?php _e( 'Post Grid', 'elementor-gravity-form' ); ?>
+					                                <?php _e( 'Post Grid', 'elementor-gravity-forms' ); ?>
 					                            </p>
 					                            <p class="desc">
-					                                <?php _e( 'Activate / Deactivate Post Grid', 'elementor-gravity-form' ); ?>
+					                                <?php _e( 'Activate / Deactivate Post Grid', 'elementor-gravity-forms' ); ?>
 					                            </p>
 					                            <input type="checkbox" id="post-grid" name="post-grid" disabled>
 					                            <label for="post-grid" class="<?php if( (bool) $this->is_pro === false ) : echo 'eael-get-pro'; endif; ?>"></label>
@@ -229,10 +229,10 @@ class Eael_gravity_from_Admin_Settings {
 					                    <td>
 					                        <div class="eael-checkbox">
 					                            <p class="title">
-					                                <?php _e( 'Post Timeline', 'elementor-gravity-form' ) ?>
+					                                <?php _e( 'Post Timeline', 'elementor-gravity-forms' ) ?>
 					                            </p>
 					                            <p class="desc">
-					                                <?php _e( 'Activate / Deactivate Post Timeline', 'elementor-gravity-form' ); ?>
+					                                <?php _e( 'Activate / Deactivate Post Timeline', 'elementor-gravity-forms' ); ?>
 					                            </p>
 					                            <input type="checkbox" id="post-timeline" name="post-timeline" disabled>
 					                            <label for="post-timeline" class="<?php if( (bool) $this->is_pro === false ) : echo 'eael-get-pro'; endif; ?>"></label>
@@ -241,10 +241,10 @@ class Eael_gravity_from_Admin_Settings {
 					                    <td>
 					                        <div class="eael-checkbox">
 					                            <p class="title">
-					                                <?php _e( 'Post Block', 'elementor-gravity-form' ); ?>
+					                                <?php _e( 'Post Block', 'elementor-gravity-forms' ); ?>
 					                            </p>
 					                            <p class="desc">
-					                                <?php _e( 'Activate / Deactivate Post Block', 'elementor-gravity-form' ); ?>
+					                                <?php _e( 'Activate / Deactivate Post Block', 'elementor-gravity-forms' ); ?>
 					                            </p>
 					                            <input type="checkbox" id="post-block" name="post-block" disabled>
 					                            <label for="post-block" class="<?php if( (bool) $this->is_pro === false ) : echo 'eael-get-pro'; endif; ?>"></label>
@@ -253,10 +253,10 @@ class Eael_gravity_from_Admin_Settings {
 					                    <td>
 					                        <div class="eael-checkbox">
 					                            <p class="title">
-					                                <?php _e( 'Instagram Gallery', 'elementor-gravity-form' ); ?>
+					                                <?php _e( 'Instagram Gallery', 'elementor-gravity-forms' ); ?>
 					                            </p>
 					                            <p class="desc">
-					                                <?php _e( 'Activate / Deactivate Instagram Gallery', 'elementor-gravity-form' ); ?>
+					                                <?php _e( 'Activate / Deactivate Instagram Gallery', 'elementor-gravity-forms' ); ?>
 					                            </p>
 					                            <input type="checkbox" id="instagram-gallery" name="instagram-gallery" disabled>
 					                            <label for="instagram-gallery" class="<?php if( (bool) $this->is_pro === false ) : echo 'eael-get-pro'; endif; ?>"></label>
@@ -265,10 +265,10 @@ class Eael_gravity_from_Admin_Settings {
 					                    <td>
 					                        <div class="eael-checkbox">
 					                            <p class="title">
-					                                <?php _e( 'Woo Product Grid', 'elementor-gravity-form' ) ?>
+					                                <?php _e( 'Woo Product Grid', 'elementor-gravity-forms' ) ?>
 					                            </p>
 					                            <p class="desc">
-					                                <?php _e( 'Activate / Deactivate Woo Product Grid', 'elementor-gravity-form' ); ?>
+					                                <?php _e( 'Activate / Deactivate Woo Product Grid', 'elementor-gravity-forms' ); ?>
 					                            </p>
 					                            <input type="checkbox" id="product-grid" name="product-grid" disabled>
 					                            <label for="product-grid" class="<?php if( (bool) $this->is_pro === false ) : echo 'eael-get-pro'; endif; ?>"></label>
@@ -279,10 +279,10 @@ class Eael_gravity_from_Admin_Settings {
 					                    <td>
 					                        <div class="eael-checkbox">
 					                            <p class="title">
-					                                <?php _e( 'Content Timeline', 'elementor-gravity-form' ) ?>
+					                                <?php _e( 'Content Timeline', 'elementor-gravity-forms' ) ?>
 					                            </p>
 					                            <p class="desc">
-					                                <?php _e( 'Activate / Deactive Content Timeline', 'elementor-gravity-form' ); ?>
+					                                <?php _e( 'Activate / Deactive Content Timeline', 'elementor-gravity-forms' ); ?>
 					                            </p>
 					                            <input type="checkbox" id="content-timeline" name="content-timeline" disabled>
 					                            <label for="content-timeline" class="<?php if( (bool) $this->is_pro === false ) : echo 'eael-get-pro'; endif; ?>"></label>
@@ -298,10 +298,10 @@ class Eael_gravity_from_Admin_Settings {
 					                    <td>
 					                        <div class="eael-checkbox">
 					                            <p class="title">
-					                                <?php _e( 'Fancy Text', 'elementor-gravity-form' ); ?>
+					                                <?php _e( 'Fancy Text', 'elementor-gravity-forms' ); ?>
 					                            </p>
 					                            <p class="desc">
-					                                <?php _e( 'Activate / Deactivate Fancy Text', 'elementor-gravity-form' ); ?>
+					                                <?php _e( 'Activate / Deactivate Fancy Text', 'elementor-gravity-forms' ); ?>
 					                            </p>
 					                            <input type="checkbox" id="fancy-text" name="fancy-text" disabled>
 					                            <label for="fancy-text" class="<?php if( (bool) $this->is_pro === false ) : echo 'eael-get-pro'; endif; ?>"></label>
@@ -310,10 +310,10 @@ class Eael_gravity_from_Admin_Settings {
 					                    <td>
 					                        <div class="eael-checkbox">
 					                            <p class="title">
-					                                <?php _e( 'Interactive Promo', 'elementor-gravity-form' ); ?>
+					                                <?php _e( 'Interactive Promo', 'elementor-gravity-forms' ); ?>
 					                            </p>
 					                            <p class="desc">
-					                                <?php _e( 'Activate / Deactivate Interactive Promo', 'elementor-gravity-form' ); ?>
+					                                <?php _e( 'Activate / Deactivate Interactive Promo', 'elementor-gravity-forms' ); ?>
 					                            </p>
 					                            <input type="checkbox" id="interactive-promo" name="interactive-promo" disabled>
 					                            <label for="interactive-promo" class="<?php if( (bool) $this->is_pro === false ) : echo 'eael-get-pro'; endif; ?>"></label>
@@ -322,10 +322,10 @@ class Eael_gravity_from_Admin_Settings {
 					                    <td>
 					                        <div class="eael-checkbox">
 					                            <p class="title">
-					                                <?php _e( 'Count Down', 'elementor-gravity-form' ); ?>
+					                                <?php _e( 'Count Down', 'elementor-gravity-forms' ); ?>
 					                            </p>
 					                            <p class="desc">
-					                                <?php _e( 'Activate / Deactivate Count Down', 'elementor-gravity-form' ); ?>
+					                                <?php _e( 'Activate / Deactivate Count Down', 'elementor-gravity-forms' ); ?>
 					                            </p>
 					                            <input type="checkbox" id="count-down" name="count-down" disabled>
 					                            <label for="count-down" class="<?php if( (bool) $this->is_pro === false ) : echo 'eael-get-pro'; endif; ?>"></label>
@@ -334,10 +334,10 @@ class Eael_gravity_from_Admin_Settings {
 					                    <td>
 					                        <div class="eael-checkbox">
 					                            <p class="title">
-					                                <?php _e( 'Lightbox', 'elementor-gravity-form' ); ?>
+					                                <?php _e( 'Lightbox', 'elementor-gravity-forms' ); ?>
 					                            </p>
 					                            <p class="desc">
-					                                <?php _e( 'Activate / Deactivate Lightbox', 'elementor-gravity-form' ); ?>
+					                                <?php _e( 'Activate / Deactivate Lightbox', 'elementor-gravity-forms' ); ?>
 					                            </p>
 					                            <input type="checkbox" id="lightbox" name="lightbox" disabled>
 					                            <label for="lightbox" class="<?php if( (bool) $this->is_pro === false ) : echo 'eael-get-pro'; endif; ?>"></label>
@@ -346,10 +346,10 @@ class Eael_gravity_from_Admin_Settings {
 					                    <td>
 					                        <div class="eael-checkbox">
 					                            <p class="title">
-					                                <?php _e( 'Static Product', 'elementor-gravity-form' ) ?>
+					                                <?php _e( 'Static Product', 'elementor-gravity-forms' ) ?>
 					                            </p>
 					                            <p class="desc">
-					                                <?php _e( 'Activate / Deactivate Static Product', 'elementor-gravity-form' ); ?>
+					                                <?php _e( 'Activate / Deactivate Static Product', 'elementor-gravity-forms' ); ?>
 					                            </p>
 					                            <input type="checkbox" id="static-product" name="static-product" disabled>
 					                            <label for="static-product" class="<?php if( (bool) $this->is_pro === false ) : echo 'eael-get-pro'; endif; ?>"></label>
@@ -360,10 +360,10 @@ class Eael_gravity_from_Admin_Settings {
 					                    <td>
 					                        <div class="eael-checkbox">
 					                            <p class="title">
-					                                <?php _e( 'Image Comparison', 'elementor-gravity-form' ); ?>
+					                                <?php _e( 'Image Comparison', 'elementor-gravity-forms' ); ?>
 					                            </p>
 					                            <p class="desc">
-					                                <?php _e( 'Activate / Deactivate Image Comparison', 'elementor-gravity-form' ); ?>
+					                                <?php _e( 'Activate / Deactivate Image Comparison', 'elementor-gravity-forms' ); ?>
 					                            </p>
 					                            <input type="checkbox" id="img-comparison" name="img-comparison" disabled>
 					                            <label for="img-comparison" class="<?php if( (bool) $this->is_pro === false ) : echo 'eael-get-pro'; endif; ?>"></label>
@@ -372,10 +372,10 @@ class Eael_gravity_from_Admin_Settings {
 					                    <td>
 					                        <div class="eael-checkbox">
 					                            <p class="title">
-					                                <?php _e( 'Flip Carousel', 'elementor-gravity-form' ) ?>
+					                                <?php _e( 'Flip Carousel', 'elementor-gravity-forms' ) ?>
 					                            </p>
 					                            <p class="desc">
-					                                <?php _e( 'Activate / Deactive Flip Carousel', 'elementor-gravity-form' ); ?>
+					                                <?php _e( 'Activate / Deactive Flip Carousel', 'elementor-gravity-forms' ); ?>
 					                            </p>
 					                            <input type="checkbox" id="flip-carousel" name="flip-carousel" disabled>
 					                            <label for="flip-carousel" class="<?php if( (bool) $this->is_pro === false ) : echo 'eael-get-pro'; endif; ?>"></label>
@@ -384,10 +384,10 @@ class Eael_gravity_from_Admin_Settings {
 					                    <td>
 					                        <div class="eael-checkbox">
 					                            <p class="title">
-					                                <?php _e( 'Interactive Cards', 'elementor-gravity-form' ) ?>
+					                                <?php _e( 'Interactive Cards', 'elementor-gravity-forms' ) ?>
 					                            </p>
 					                            <p class="desc">
-					                                <?php _e( 'Activate / Deactive Interactive Cards', 'elementor-gravity-form' ); ?>
+					                                <?php _e( 'Activate / Deactive Interactive Cards', 'elementor-gravity-forms' ); ?>
 					                            </p>
 					                            <input type="checkbox" id="interactive-cards" name="interactive-cards" disabled>
 					                            <label for="interactive-cards" class="<?php if( (bool) $this->is_pro === false ) : echo 'eael-get-pro'; endif; ?>"></label>
@@ -403,10 +403,10 @@ class Eael_gravity_from_Admin_Settings {
 					                    <td>
 					                        <div class="eael-checkbox">
 					                            <p class="title">
-					                                <?php _e( 'Call To Action', 'elementor-gravity-form' ) ?>
+					                                <?php _e( 'Call To Action', 'elementor-gravity-forms' ) ?>
 					                            </p>
 					                            <p class="desc">
-					                                <?php _e( 'Activate / Deactive Call To Action', 'elementor-gravity-form' ); ?>
+					                                <?php _e( 'Activate / Deactive Call To Action', 'elementor-gravity-forms' ); ?>
 					                            </p>
 					                            <input type="checkbox" id="call-to-action" name="call-to-action" disabled>
 					                            <label for="call-to-action" class="<?php if( (bool) $this->is_pro === false ) : echo 'eael-get-pro'; endif; ?>"></label>
@@ -415,10 +415,10 @@ class Eael_gravity_from_Admin_Settings {
 					                    <td>
 					                        <div class="eael-checkbox">
 					                            <p class="title">
-					                                <?php _e( 'Pricing Table', 'elementor-gravity-form' ) ?>
+					                                <?php _e( 'Pricing Table', 'elementor-gravity-forms' ) ?>
 					                            </p>
 					                            <p class="desc">
-					                                <?php _e( 'Activate / Deactive Pricing Table', 'elementor-gravity-form' ); ?>
+					                                <?php _e( 'Activate / Deactive Pricing Table', 'elementor-gravity-forms' ); ?>
 					                            </p>
 					                            <input type="checkbox" id="price-table" name="price-table" disabled>
 					                            <label for="price-table" class="<?php if( (bool) $this->is_pro === false ) : echo 'eael-get-pro'; endif; ?>"></label>
@@ -434,10 +434,10 @@ class Eael_gravity_from_Admin_Settings {
 					                    <td>
 					                        <div class="eael-checkbox">
 					                            <p class="title">
-					                                <?php _e( 'We-Forms', 'elementor-gravity-form' ) ?>
+					                                <?php _e( 'We-Forms', 'elementor-gravity-forms' ) ?>
 					                            </p>
 					                            <p class="desc">
-					                                <?php _e( 'Activate / Deactivate WeForms', 'elementor-gravity-form' ); ?>
+					                                <?php _e( 'Activate / Deactivate WeForms', 'elementor-gravity-forms' ); ?>
 					                            </p>
 					                            <input type="checkbox" id="weforms" name="weforms" disabled>
 					                            <label for="weforms" class="<?php if( (bool) $this->is_pro === false ) : echo 'eael-get-pro'; endif; ?>"></label>
@@ -446,10 +446,10 @@ class Eael_gravity_from_Admin_Settings {
 					                    <td>
 					                        <div class="eael-checkbox">
 					                            <p class="title">
-					                                <?php _e( 'Contact Form 7', 'elementor-gravity-form' ); ?>
+					                                <?php _e( 'Contact Form 7', 'elementor-gravity-forms' ); ?>
 					                            </p>
 					                            <p class="desc">
-					                                <?php _e( 'Activate / Deactivate Contact Form 7', 'elementor-gravity-form' ); ?>
+					                                <?php _e( 'Activate / Deactivate Contact Form 7', 'elementor-gravity-forms' ); ?>
 					                            </p>
 					                            <input type="checkbox" id="gravity-from" name="gravity-from" disabled >
 					                            <label for="gravity-from" class="<?php if( (bool) $this->is_pro === false ) : echo 'eael-get-pro'; endif; ?>"></label>
@@ -458,10 +458,10 @@ class Eael_gravity_from_Admin_Settings {
 					                    <td>
 					                        <div class="eael-checkbox">
 					                            <p class="title">
-					                                <?php _e( 'Ninja Form', 'elementor-gravity-form' ) ?>
+					                                <?php _e( 'Ninja Form', 'elementor-gravity-forms' ) ?>
 					                            </p>
 					                            <p class="desc">
-					                                <?php _e( 'Activate / Deactive Ninja Form', 'elementor-gravity-form' ); ?>
+					                                <?php _e( 'Activate / Deactive Ninja Form', 'elementor-gravity-forms' ); ?>
 					                            </p>
 					                            <input type="checkbox" id="ninja-form" name="ninja-form" disabled>
 					                            <label for="ninja-form" class="<?php if( (bool) $this->is_pro === false ) : echo 'eael-get-pro'; endif; ?>"></label>
@@ -470,10 +470,10 @@ class Eael_gravity_from_Admin_Settings {
 					                    <td>
 					                        <div class="eael-checkbox">
 					                            <p class="title">
-					                                <?php _e( 'Gravity Form', 'elementor-gravity-form' ) ?>
+					                                <?php _e( 'Gravity Form', 'elementor-gravity-forms' ) ?>
 					                            </p>
 					                            <p class="desc">
-					                                <?php _e( 'Activate / Deactive Gravity Form', 'elementor-gravity-form' ); ?>
+					                                <?php _e( 'Activate / Deactive Gravity Form', 'elementor-gravity-forms' ); ?>
 					                            </p>
 					                            <input type="checkbox" id="gravity-form" name="gravity-form" disabled>
 					                            <label for="gravity-form" class="<?php if( (bool) $this->is_pro === false ) : echo 'eael-get-pro'; endif; ?>"></label>
