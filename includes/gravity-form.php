@@ -4,7 +4,7 @@ namespace Elementor;
 if ( ! defined( 'ABSPATH' ) ) exit; // If this file is called directly, abort.
 
 
-class Widget_Eael_GravityForm extends Widget_Base {
+class Widget_Eael_Gravity_Form_Stand_Alone extends Widget_Base {
 
 	public function get_name() {
 		return 'eael-gravity';
@@ -713,4 +713,4 @@ class Widget_Eael_GravityForm extends Widget_Base {
 }
 
 
-Plugin::instance()->widgets_manager->register_widget_type( new Widget_Eael_GravityForm() );
+Plugin::instance()->widgets_manager->register_widget_type( new Widget_Eael_Gravity_Form_Stand_Alone() );
