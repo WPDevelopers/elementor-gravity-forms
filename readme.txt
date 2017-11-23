@@ -7,7 +7,7 @@ Stable tag: 1.0.0
 License: GPLv3
 License URI: https://opensource.org/licenses/GPL-3.0
 
-Gravity Form styler for Elementor page builder.
+Style your Gravity forms right from the Elementor visual editor.
 
 == Description ==
 
@@ -82,7 +82,12 @@ Absolutely! It will work with any theme where Elementor and Gravity Form works.
 
 == Screenshots ==
 
-
+1. Example Forms
+2. Select Forms
+3. Style Form container
+4. Style Form fields 
+5. Set Color & Typography
+6. Style submit button
 
 == Changelog ==
 
