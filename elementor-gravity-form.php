@@ -1,7 +1,7 @@
 <?php
 /**
- * Plugin Name: Elementor Gravity Forms
- * Description: Gravity Form styler for elementor. Design the form visually with elementor.
+ * Plugin Name: Gravity Forms styler for Elementor
+ * Description: Gravity Forms styler for elementor. Design the gravity form visually with elementor.
  * Plugin URI: https://essential-addons.com/elementor/gravity-forms
  * Author: Essential Addons
  * Version: 1.0.0
