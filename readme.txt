@@ -11,7 +11,7 @@ Style your Gravity forms right from the Elementor visual editor.
 
 == Description ==
 
-Gravity Form styler for Elementor page builder. Desing beatiful Forms using Elementor and Gravity Form with visual editor. No coding required.
+Gravity Form styler for Elementor page builder. Design beatiful Forms using Elementor and Gravity Form with visual editor. No coding required.
 
 
 [Check the Demo](https://essential-addons.com/elementor/gravity-forms/)
