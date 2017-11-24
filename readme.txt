@@ -1,4 +1,4 @@
-=== Elementor Gravity Forms ===
+=== Gravity Forms styler for Elementor Page Builder ===
 Contributors: re_enter_rupok, Asif2BD, robicse11128, codetic
 Tags: elementor, gravity form, gravity form styler, elementor addon, elementor widget
 Requires at least: 4.0
